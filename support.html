@@ -14,6 +14,12 @@
   h3 + p { margin-top: 0.2em; }
   .einleitung { color: #6e6e73; margin-top: 0; }
   a { color: #2e6b4f; }
+  html { scroll-behavior: smooth; }
+  h3, .fragen { scroll-margin-top: 16px; }
+  .fragen { padding-left: 1.2em; }
+  .fragen li { margin: 0.25em 0; }
+  .nach-oben { font-size: 0.9rem; margin-top: 0.4em; }
+  .nach-oben a { text-decoration: none; }
   @media (prefers-color-scheme: dark) {
     body { color: #f5f5f7; background: #1c1c1e; }
     .einleitung { color: #a1a1a6; }
@@ -30,55 +36,91 @@
 <p>Bei Fragen, Fehlern oder Wünschen schreib eine E-Mail an <a href="mailto:christian@behncke.eu?subject=Schie%C3%9Fbuch-App">christian@behncke.eu</a>. Hilfreich sind dabei die App-Version (zu finden in den iOS-Einstellungen unter „Allgemein“ → „iPhone-Speicher“ → „Schießbuch“ – so heißt die App auf dem Home-Bildschirm), dein Gerätemodell und eine kurze Beschreibung, was du gemacht hast.</p>
 
 <h2>Häufige Fragen</h2>
+<ul class="fragen" id="fragen">
+  <li><a href="#wo-werden-meine-daten-gespeichert">Wo werden meine Daten gespeichert?</a></li>
+  <li><a href="#wie-werden-meine-daten-zwischen-iphone-und-ipad-ab">Wie werden meine Daten zwischen iPhone und iPad abgeglichen?</a></li>
+  <li><a href="#ich-habe-ein-neues-iphone-wie-bekomme-ich-meine-da">Ich habe ein neues iPhone. Wie bekomme ich meine Daten zurück?</a></li>
+  <li><a href="#wie-lasse-ich-einen-eintrag-von-der-standaufsicht">Wie lasse ich einen Eintrag von der Standaufsicht unterschreiben?</a></li>
+  <li><a href="#wie-erstelle-ich-einen-nachweis-als-pdf">Wie erstelle ich einen Nachweis als PDF?</a></li>
+  <li><a href="#warum-sehe-ich-bei-einem-neuen-eintrag-nicht-alle">Warum sehe ich bei einem neuen Eintrag nicht alle Disziplinen?</a></li>
+  <li><a href="#was-bedeuten-die-favoriten">Was bedeuten die Favoriten (★)?</a></li>
+  <li><a href="#wie-schuetze-ich-die-app-vor-fremden-blicken">Wie schütze ich die App vor fremden Blicken?</a></li>
+  <li><a href="#wie-teile-ich-disziplinen-mit-anderen">Wie teile ich Disziplinen mit anderen?</a></li>
+  <li><a href="#wie-trage-ich-ein-wechselsystem-ein">Wie trage ich ein Wechselsystem ein?</a></li>
+  <li><a href="#welche-erinnerungen-gibt-es">Welche Erinnerungen gibt es?</a></li>
+  <li><a href="#in-welchem-format-werden-dokumente-gespeichert">In welchem Format werden Dokumente gespeichert?</a></li>
+  <li><a href="#wie-erstelle-ich-eine-datensicherung">Wie erstelle ich eine Datensicherung?</a></li>
+  <li><a href="#was-zeigt-die-beduerfnis-uebersicht">Was zeigt die Bedürfnis-Übersicht?</a></li>
+  <li><a href="#warum-kann-ich-einen-eintrag-nicht-mehr-bearbeiten">Warum kann ich einen Eintrag nicht mehr bearbeiten?</a></li>
+  <li><a href="#wie-loesche-ich-alle-daten">Wie lösche ich alle Daten?</a></li>
+</ul>
 
-<h3>Wo werden meine Daten gespeichert?</h3>
+
+
+<h3 id="wo-werden-meine-daten-gespeichert">Wo werden meine Daten gespeichert?</h3>
 <p>Auf deinem Gerät und, wenn iCloud aktiv ist, in deiner privaten iCloud. Der Entwickler erhält keine deiner Daten. Details stehen in der <a href="./">Datenschutzerklärung</a>.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie werden meine Daten zwischen iPhone und iPad abgeglichen?</h3>
+<h3 id="wie-werden-meine-daten-zwischen-iphone-und-ipad-ab">Wie werden meine Daten zwischen iPhone und iPad abgeglichen?</h3>
 <p>Über iCloud. Melde dich auf beiden Geräten mit demselben Apple-Account an und achte darauf, dass iCloud für die App eingeschaltet ist (iOS-Einstellungen → dein Name → iCloud). Der Abgleich läuft automatisch im Hintergrund und kann nach einer Änderung einige Minuten dauern.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Ich habe ein neues iPhone. Wie bekomme ich meine Daten zurück?</h3>
+<h3 id="ich-habe-ein-neues-iphone-wie-bekomme-ich-meine-da">Ich habe ein neues iPhone. Wie bekomme ich meine Daten zurück?</h3>
 <p>War iCloud auf dem alten Gerät aktiv, installiere die App auf dem neuen Gerät und melde dich mit demselben Apple-Account an. Die Daten werden dann aus iCloud geladen. Ohne iCloud lassen sich die Daten nur über ein Geräte-Backup übertragen.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie lasse ich einen Eintrag von der Standaufsicht unterschreiben?</h3>
+<h3 id="wie-lasse-ich-einen-eintrag-von-der-standaufsicht">Wie lasse ich einen Eintrag von der Standaufsicht unterschreiben?</h3>
 <p>Öffne den Eintrag und tippe auf „Von der Standaufsicht unterschreiben lassen“. Die Aufsicht trägt ihren Namen ein und unterschreibt mit dem Finger auf dem Display. Wird ein unterschriebener Eintrag nachträglich geändert, wird die Unterschrift entfernt und muss neu eingeholt werden.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie erstelle ich einen Nachweis als PDF?</h3>
+<h3 id="wie-erstelle-ich-einen-nachweis-als-pdf">Wie erstelle ich einen Nachweis als PDF?</h3>
 <p>Unter „Stammdaten“ → „PDF-Export“ wählst du Zeitraum und gegebenenfalls Verband aus und tippst auf „PDF erstellen“. Das PDF kannst du anschließend per E-Mail, AirDrop oder in die Dateien-App teilen.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Warum sehe ich bei einem neuen Eintrag nicht alle Disziplinen?</h3>
+<h3 id="warum-sehe-ich-bei-einem-neuen-eintrag-nicht-alle">Warum sehe ich bei einem neuen Eintrag nicht alle Disziplinen?</h3>
 <p>Es werden nur Disziplinen angeboten, die zum gewählten Verband passen und für das Kaliber der gewählten Waffe zugelassen sind. Die zugelassenen Kaliber legst du bei der Disziplin unter „Stammdaten“ → „Disziplinen“ fest.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Was bedeuten die Favoriten (★)?</h3>
+<h3 id="was-bedeuten-die-favoriten">Was bedeuten die Favoriten (★)?</h3>
 <p>Waffe, Verein, Schießstand und Verband, die als Favorit markiert sind, werden bei einem neuen Eintrag automatisch vorausgewählt. Schießstand und Verband werden dabei bevorzugt aus dem Favoritenverein übernommen.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie schütze ich die App vor fremden Blicken?</h3>
+<h3 id="wie-schuetze-ich-die-app-vor-fremden-blicken">Wie schütze ich die App vor fremden Blicken?</h3>
 <p>Ab Version 1.3 lassen sich Dokumente wie die Kopie deiner WBK mit Face ID, Touch ID oder dem Gerätecode schützen (Schalter im jeweiligen Dokument, bei der WBK schon eingeschaltet). Die ganze App sperrst du über iOS: App-Symbol auf dem Home-Bildschirm gedrückt halten und „Face ID erforderlich“ wählen. In älteren Versionen findest du unter „Stammdaten“ → „Einstellungen“ den Schalter „App-Sperre“.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie teile ich Disziplinen mit anderen?</h3>
+<h3 id="wie-teile-ich-disziplinen-mit-anderen">Wie teile ich Disziplinen mit anderen?</h3>
 <p>Ab Version 1.4: Unter „Stammdaten“ → „Disziplinen“ findest du oben rechts „Teilen und Importieren“. Du kannst alle Disziplinen oder nur die eines Verbands als CSV-Datei teilen, zum Beispiel per WhatsApp oder AirDrop. Die Datei enthält nur Nummer, Name, zugelassene Kaliber, Verband und Beschreibung – nichts Persönliches. Wer sie öffnet und „Schießbuch“ wählt, kann die Disziplinen übernehmen; bereits vorhandene werden übersprungen.</p>
 <p>Du kannst eine solche Liste auch am Rechner in Excel oder Numbers anlegen. Die Spalten sind: <em>Nummer; Name; Zugelassene Kaliber; Verband; Verbandskürzel; Beschreibung</em>. Mehrere Kaliber trennst du mit Komma. Als CSV speichern und über „Disziplinen importieren“ einlesen.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie trage ich ein Wechselsystem ein?</h3>
+<h3 id="wie-trage-ich-ein-wechselsystem-ein">Wie trage ich ein Wechselsystem ein?</h3>
 <p>Ab Version 1.5: Öffne unter „Stammdaten“ → „Waffen“ die Waffe und tippe auf „Wechselsystem hinzufügen“. Du kannst Wechselsysteme, Wechselläufe, Wechseltrommeln und Einsteckläufe mit eigenem Kaliber, Seriennummer und WBK-Nummer anlegen. Im Eintrag wählst du nach der Waffe die „Ausführung“; Kaliber und passende Disziplinen richten sich dann nach dem Wechselsystem. Für das Bedürfnis zählt der Termin bei der Waffe, zu der das Wechselsystem gehört. Im PDF erscheint es hinter der Waffe, zum Beispiel „Glock 17 (WS .22 lr)“.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Welche Erinnerungen gibt es?</h3>
+<h3 id="welche-erinnerungen-gibt-es">Welche Erinnerungen gibt es?</h3>
 <p>Ab Version 1.5 findest du unter „Stammdaten“ → „Einstellungen“ → „Erinnerungen“: ablaufende Dokumente (14, 30 oder 60 Tage vorher und am Ablauftag), einen Hinweis am 20. des Monats, wenn für deine Bedürfnisregel noch ein Termin fehlt, fehlende Unterschriften am Abend eines Schießtags und Munition unter dem Mindestbestand. Die Uhrzeit stellst du selbst ein. Die Erinnerungen werden nur auf deinem iPhone berechnet; es werden keine Daten übertragen.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>In welchem Format werden Dokumente gespeichert?</h3>
+<h3 id="in-welchem-format-werden-dokumente-gespeichert">In welchem Format werden Dokumente gespeichert?</h3>
 <p>Ab Version 1.5 als PDF – auch Fotos. Wählst du mehrere Fotos auf einmal aus (z. B. Vorder- und Rückseite eines Ausweises), entsteht daraus ein PDF mit mehreren Seiten. Dokumente, die in älteren Versionen als Foto gespeichert wurden, wandelt die App beim Start automatisch in PDFs um.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie erstelle ich eine Datensicherung?</h3>
+<h3 id="wie-erstelle-ich-eine-datensicherung">Wie erstelle ich eine Datensicherung?</h3>
 <p>Unter „Stammdaten“ → „Datensicherung“ erstellst du eine Datei mit allen Daten der App und speicherst sie zum Beispiel in der Dateien-App. Über „Sicherung einlesen“ stellst du sie wieder her. Ab Version 1.3 wird die Datei mit einem Passwort verschlüsselt, das du beim Erstellen festlegst. Ohne dieses Passwort lässt sie sich nicht wieder einlesen – bewahre es gut auf oder lass es dir im iCloud-Schlüsselbund merken.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Was zeigt die Bedürfnis-Übersicht?</h3>
+<h3 id="was-zeigt-die-beduerfnis-uebersicht">Was zeigt die Bedürfnis-Übersicht?</h3>
 <p>Unter „Statistik“ → „Bedürfnis-Übersicht“ prüft die App, ob deine Termine der letzten 12 Monate eine Regel erfüllen, zum Beispiel „Neues Bedürfnis (12/18)“ oder „Fortlaufendes Bedürfnis (4/6)“. Die Regel kannst du auswählen oder selbst festlegen. Die Übersicht ist eine Hilfe; maßgeblich sind die Vorgaben deines Verbands und der Behörde.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Warum kann ich einen Eintrag nicht mehr bearbeiten?</h3>
+<h3 id="warum-kann-ich-einen-eintrag-nicht-mehr-bearbeiten">Warum kann ich einen Eintrag nicht mehr bearbeiten?</h3>
 <p>Unterschriebene Einträge sind gegen Änderungen gesperrt. Um etwas zu korrigieren, öffne den Eintrag, widerrufe über das Menü die Unterschrift und lass ihn nach der Änderung neu unterschreiben.</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
-<h3>Wie lösche ich alle Daten?</h3>
+<h3 id="wie-loesche-ich-alle-daten">Wie lösche ich alle Daten?</h3>
 <p>Einzelne Einträge und Stammdaten löschst du in der App mit einer Wischgeste nach links. Um alles zu entfernen, lösche die App und anschließend die App-Daten in iCloud (iOS-Einstellungen → dein Name → iCloud → Speicher verwalten).</p>
+<p class="nach-oben"><a href="#fragen">↑ Zur Fragenliste</a></p>
 
 <h2>Rechtliches</h2>
 <p><a href="./">Datenschutzerklärung</a></p>
